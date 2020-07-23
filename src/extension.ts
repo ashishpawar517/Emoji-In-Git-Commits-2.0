@@ -23,7 +23,7 @@ export function activate(context: vscode.ExtensionContext) {
 		}
 
 		vscode.window
-			.showQuickPick(items, { placeHolder: 'Select a particular Emoji Log git commit.' })
+			.showQuickPick(items, { placeHolder: 'Select a particular Emoji for commit.' })
 			.then(function (selected) {
 				if (selected) {
 					vscode.commands.executeCommand('workbench.view.scm');
