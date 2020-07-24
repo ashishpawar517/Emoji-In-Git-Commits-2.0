@@ -31,7 +31,7 @@
 | ⏪ Reverting : | Reverting changes|
 | 🔀 Merging: |Merging branches|
 | 💩 Needs Improvement: | Bad Code / needs improv|
-| 📦 Configuration: | Changes in config files (package.json| pom.xml) |
+| 📦 Configuration: | Changes in config files (package.json,pom.xml) |
 
 ## Special thanks :
 - ahmadawais
