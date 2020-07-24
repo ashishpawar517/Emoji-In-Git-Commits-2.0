@@ -4,6 +4,11 @@
 - But with many new emoji support
 - Inspired from the Telling stories from the git-commits.
 
+## Usage :
+- Press ctrl+shift+p then select Emoji-In-Git-Commits-2.0 then select the commit emoji
+- Type the complete commit message after :
+- Done
+
 ## Supported Emojis :
 
 | Commit message          | Description                  |
