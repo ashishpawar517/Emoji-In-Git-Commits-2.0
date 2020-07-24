@@ -8,7 +8,6 @@
         "email": "pawarashish564@gmail.com"
     },
     "publisher": "Aashish",
-    "license": "MIT",
     "repository": {
         "type": "git",
         "url": "https://github.com/pawarashish564/Emoji-In-Git-Commits-2.0"
@@ -20,8 +19,8 @@
         "color": "#fad000"
     },
     "keywords": [
-        "Emoji Log",
-        "Emoji Log VSCode",
+        "Emoji In Commits",
+        "Emoji",
         "git",
         "emoji",
         "commit",
@@ -31,7 +30,7 @@
     "categories": [
         "Other"
     ],
-    "icon": "images/icon.png",
+    "icon": "images/Logo.png",
     "activationEvents": [
         "onCommand:extension.EmojiLog"
     ],
@@ -53,11 +52,7 @@
             }]
         }
     },
-    "badges": [{
-        "url": "https://img.shields.io/badge/SUPPORT%20THIS%20PROJECT-Become%20a%20VSCode%20Power%20User%20%E2%86%92-gray.svg?colorA=131217&colorB=5734F5&style=flat",
-        "href": "https://VSCode.pro/?utm_source=EmojiLogVSCode",
-        "description": "Support this project!"
-    }],
+
     "scripts": {
         "vscode:prepublish": "npm run compile",
         "compile": "tsc -p ./",

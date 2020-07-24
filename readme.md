@@ -2,6 +2,7 @@
 
 - unofficial version of Emoji-Log-VSCode
 - But with many new emoji support
+- Inspired from the Telling stories from the git-commits.
 
 ## Supported Emojis :
 
@@ -12,8 +13,6 @@
 | 🐛 FIX:            | Fix a bug — need I say more? |
 | 📖 DOC:            | Anything documentation related.|
 | 🚀 RELEASE:        | Release a new version.|
-| 🤖 TEST:           ||Testing related commits.||
-| ‼️ BREAKING:         |  Change that breaks previous versions.||
 | 🎉 Initial Commit: |initial commit |
 | ✨ New Feature:    |New Feature in the development |
 | ✅ Adding Tests:  |Adding tests||
@@ -27,7 +26,7 @@
 | 👌 Code review :|code review changes |
 | 🚧 Work in Progress|working on specific issue/bug |
 | 🚑 Critical Hotfix|critical Hotfix|
-| 🚀 Deploy: |Deploying stuff||
+| 🚀 Deploy: |Deploying stuff|
 | 📈 tracking code: |tracking code or analytics|
 | ⏪ Reverting : | Reverting changes|
 | 🔀 Merging: |Merging branches|
