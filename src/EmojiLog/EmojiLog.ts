@@ -5,23 +5,23 @@ interface Emoji {
 
 let EmojiLog: Array<Emoji> = [
 	{
-		emoji: '💥 NEW:',
+		emoji: "💥 NEW:",
 		description: 'Add something entirely new.',
 	},
 	{
-		emoji: '👌 IMPROVE:',
+		emoji:"👌 IMPROVE:",
 		description: 'Improve piece of code like refactoring.',
 	},
 	{
-		emoji: '🐛 FIX:',
+		emoji: "🐛 FIX:",
 		description: 'Fix a bug — need I say more?',
 	},
 	{
-		emoji: '📖 DOC:',
+		emoji: "📖 DOC:",
 		description: 'Anything documentation related.',
 	},
 	{
-		emoji: '🚀 RELEASE:',
+		emoji: "🚀 RELEASE:",
 		description: 'Release a new version.',
 	},
 	{
@@ -106,79 +106,79 @@ let EmojiLog: Array<Emoji> = [
 	},
 	{
 		emoji:"🚚 Rename: ",
-		description:'Move or rename files.'
+		description:'Move or rename files.',
 	},
 	{
 		emoji:"📄 licence: ",
-		description:'Add or update license.'
+		description:'Add or update license.',
 	},
 	{
 		emoji:"🍱 Assets:",
-		description:'Add or update assets.'
+		description:'Add or update assets.',
 	},
 	{
 		emoji:"♿️ Accessibility:",
-		description:'Improve accessibility.'
+		description:'Improve accessibility.',
 	},
 	{
 		emoji:"💡 Commenting:",
-		description:"Add or update comments in source code."
+		description:"Add or update comments in source code.",
 	},
 	{
 		emoji:"🗃 Database:",
-		description:'Perform database related changes.'
+		description:'Perform database related changes.',
 	},
 	{
 		emoji:"💬 text literals:",
-		description:'Add or update text and literals.'
+		description:'Add or update text and literals.',
 	},
 	{
 		emoji:"👥 Contributors: ",
-		description:'Add or update contributor(s).'
+		description:'Add or update contributor(s).',
 	},
 	{
 		emoji:"🏗 Change: ",
-		description:'Make architectural changes.'
+		description:'Make architectural changes.',
 	},
 	{
 		emoji:"📱 Design: ",
-		description:'Work on responsive design.'
+		description:'Work on responsive design.',
 	},
 	{
 		emoji:"📸 Snapshots: ",
-		description:'Add or update snapshots'
+		description:'Add or update snapshots',
 	},
 	{
 		emoji:"🙈 gitignore: ",
-		description:'Add or update a .gitignore file'
+		description:'Add or update a .gitignore file',
 	},
 	{
 		emoji:"⚗ Experiment New Feature: ",
-		description:'Experiment new things'
+		description:'Experiment new things',
 	},
 	{
 		emoji:"🥅 Try-catch-fix: ",
-		description:'Catching errors'
+		description:'Catching errors',
 	},
 	{
 		emoji:"✏️ Fix Typo:",
-		description:'Fix typos.'
+		description:'Fix typos.',
 	},
 	{
 		emoji:"⬇️ Dependencies: ",
-		description:'Downgrade dependencies.'
+		description:'Downgrade dependencies.',
 	},
 	{
 		emoji:"⬆️ Dependencies: ",
-		description:'Upgrade dependencies.'
+		description:'Upgrade dependencies.',
 	},
 	{
 		emoji:"👷 CI: ",
-		description:'Add or update CI build system.'
+		description:'Add or update CI build system.',
 	},
 	{
 		emoji:"💄 UI: ",
-		description:'Add or update the UI and style files.'
+		description:'Add or update the UI and style files.',
 	}
 
 ];
