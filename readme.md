@@ -10,6 +10,8 @@
 - Type the complete commit message after :
 - Done
 
+![working gif](git_commit_emoji.gif)
+
 ## Supported Emojis :
 
 | Commit message          | Description                  |
