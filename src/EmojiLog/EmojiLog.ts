@@ -24,14 +24,14 @@ let EmojiLog: Array<Emoji> = [
 		emoji: '🚀 RELEASE:',
 		description: 'Release a new version.',
 	},
-	{
-		emoji: '🤖 TEST:',
-		description: 'Testing related commits.',
-	},
-	{
-		emoji: '‼️ BREAKING:',
-		description: 'Change that breaks previous versions.',
-	},
+	// {
+	// 	emoji: '🤖 TEST:',
+	// 	description: 'Testing related commits.',
+	// },
+	// {
+	// 	emoji: '‼️ BREAKING:',
+	// 	description: 'Change that breaks previous versions.',
+	// },
 	{
 		emoji: "🎉 Initial Commit:",
 		description: 'initial commit ',
@@ -107,6 +107,86 @@ let EmojiLog: Array<Emoji> = [
 	{
 		emoji: "📦 Configuration: ",
 		description: 'Changes in config files (package.json, pom.xml) ',
+	},
+	{
+		emoji:"👽 Code Change: ",
+		description:'Update code due to external API changes.'
+	},
+	{
+		emoji:"🚚 Rename: ",
+		description:'Move or rename files.'
+	},
+	{
+		emoji:"📄 licence: ",
+		description:'Add or update license.'
+	},
+	{
+		emoji:"🍱 Assets:",
+		description:'Add or update assets.'
+	},
+	{
+		emoji:"♿️ Accessibility:",
+		description:'Improve accessibility.'
+	},
+	{
+		emoji:"💡 Commenting:",
+		description:"Add or update comments in source code."
+	},
+	{
+		emoji:"🗃 Database:",
+		description:'Perform database related changes.'
+	},
+	{
+		emoji:"💬 text literals:",
+		description:'Add or update text and literals.'
+	},
+	{
+		emoji:"👥 Contributors: ",
+		description:'Add or update contributor(s).'
+	},
+	{
+		emoji:"🏗 Change: ",
+		description:'Make architectural changes.'
+	},
+	{
+		emoji:"📱 Design: ",
+		description:'Work on responsive design.'
+	},
+	{
+		emoji:"📸 Snapshots: ",
+		description:'Add or update snapshots'
+	},
+	{
+		emoji:"🙈 gitignore: ",
+		description:'Add or update a .gitignore file'
+	},
+	{
+		emoji:"⚗ Experiment New Feature: ",
+		description:'Experiment new things'
+	},
+	{
+		emoji:"🥅 Try-catch-fix: ",
+		description:'Catching errors'
+	},
+	{
+		emoji:"✏️ Fix Typo:",
+		description:'Fix typos.'
+	},
+	{
+		emoji:"⬇️ Dependencies: ",
+		description:'Downgrade dependencies.'
+	},
+	{
+		emoji:"⬆️ Dependencies: ",
+		description:'Upgrade dependencies.'
+	},
+	{
+		emoji:"👷 CI: ",
+		description:'Add or update CI build system.'
+	},
+	{
+		emoji:"💄 UI: ",
+		description:'Add or update the UI and style files.'
 	}
 
 ];

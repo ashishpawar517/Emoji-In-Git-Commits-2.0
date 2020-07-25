@@ -5,7 +5,8 @@
 - Inspired from the Telling stories from the git-commits.
 
 ## Usage :
-- Press ctrl+shift+p then select Emoji-In-Git-Commits-2.0 then select the commit emoji
+
+- Press `ctrl+shift+p` then select Emoji-In-Git-Commits-2.0 then select the commit emoji
 - Type the complete commit message after :
 - Done
 
@@ -37,11 +38,30 @@
 | 🔀 Merging: |Merging branches|
 | 💩 Needs Improvement: | Bad Code / needs improv|
 | 📦 Configuration: | Changes in config files (package.json,pom.xml) |
-
+| 👽 Code Change: | Update code due to external API changes.|
+| 🚚 Rename: |Move or rename files.|
+| 📄 licence: |Add or update license.|
+| 🍱 Assets:  |Add or update assets. |
+| ♿️ Accessibility:	|Improve accessibility.|
+| 💡 Commenting: |Add or update comments in source code.|
+| 🗃 Database:	|Perform database related changes.|
+| 💬 text literals:	|Add or update text and literals.|
+| 👥 Contributors: 	| Add or update contributor(s).|
+| 🏗 Change:  		| Make architectural changes.|
+| 📱 Design: 		| Work on responsive design. |
+| 📸 Snapshots:   | Add or update snapshots|
+| 🙈 gitignore: |	Add or update a .gitignore file|
+| ⚗ Experiment New Feature: |Experiment new things|
+| 🥅 Try-catch-fix: |Catching errors|
+| ✏️ Fix Typo:| Fix typos.|
+| ⬇️ Dependencies: |Downgrade dependencies.|
+| ⬆️ Dependencies: |Upgrade dependencies.|
+| 👷 CI: |Add or update CI build system.|
+| 💄 UI:|Add or update the UI and style files.|
+	
 ## Special thanks :
 - ahmadawais
 - parmentf
+- gitmoji 
 
-## More Emojis are coming soon... 
-
-### Stay connected
+### PR for Emoji Request 
