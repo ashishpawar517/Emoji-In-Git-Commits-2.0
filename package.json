@@ -2,7 +2,7 @@
     "name": "emoji-in-git-commit",
     "displayName": "Emoji-In-Git-Commits-2.0",
     "description": " Use Emojis in Git Commit Messages ",
-    "version": "1.2.2",
+    "version": "2.0.0",
     "author": {
         "name": "Aashish",
         "email": "pawarashish564@gmail.com"
@@ -36,20 +36,24 @@
     ],
     "main": "./out/extension.js",
     "contributes": {
-        "commands": [{
-            "command": "extension.EmojiLog",
-            "title": "Emoji-In-Git-Commits-2.0",
-            "icon": {
-                "dark": "images/Logo.png",
-                "light": "images/Logo.png"
-            }
-        }],
-        "menus": {
-            "scm/title": [{
-                "when": "scmProvider == git",
+        "commands": [
+            {
                 "command": "extension.EmojiLog",
-                "group": "navigation"
-            }]
+                "title": "Emoji-In-Git-Commits-2.0",
+                "icon": {
+                    "dark": "images/Logo.png",
+                    "light": "images/Logo.png"
+                }
+            }
+        ],
+        "menus": {
+            "scm/title": [
+                {
+                    "when": "scmProvider == git",
+                    "command": "extension.EmojiLog",
+                    "group": "navigation"
+                }
+            ]
         }
     },
     "scripts": {
