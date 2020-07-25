@@ -24,14 +24,6 @@ let EmojiLog: Array<Emoji> = [
 		emoji: '🚀 RELEASE:',
 		description: 'Release a new version.',
 	},
-	// {
-	// 	emoji: '🤖 TEST:',
-	// 	description: 'Testing related commits.',
-	// },
-	// {
-	// 	emoji: '‼️ BREAKING:',
-	// 	description: 'Change that breaks previous versions.',
-	// },
 	{
 		emoji: "🎉 Initial Commit:",
 		description: 'initial commit ',
