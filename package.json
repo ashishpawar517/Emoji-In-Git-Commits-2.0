@@ -2,7 +2,7 @@
     "name": "emoji-in-git-commit",
     "displayName": "Emojis For Git Commits",
     "description": "Emojis for Git Commits",
-    "version": "2.0.2",
+    "version": "2.0.4",
     "author": {
         "name": "Aashish Pawar",
         "email": "pawarashish564@gmail.com"
@@ -36,23 +36,26 @@
     ],
     "main": "./out/extension.js",
     "contributes": {
-        "commands": [{
-            "command": "extension.EmojiLog",
-            "title": "Emoji Log ",
-            "icon": {
-                "dark": "images/icon_dark.svg",
-                "light": "images/icon_light.svg"
-            }
-        }],
-        "menus": {
-            "scm/title": [{
-                "when": "scmProvider == git",
+        "commands": [
+            {
                 "command": "extension.EmojiLog",
-                "group": "navigation"
-            }]
+                "title": "Emoji Log ",
+                "icon": {
+                    "dark": "images/icon_dark.svg",
+                    "light": "images/icon_light.svg"
+                }
+            }
+        ],
+        "menus": {
+            "scm/title": [
+                {
+                    "when": "scmProvider == git",
+                    "command": "extension.EmojiLog",
+                    "group": "navigation"
+                }
+            ]
         }
     },
-
     "scripts": {
         "vscode:prepublish": "npm run compile",
         "compile": "tsc -p ./",
