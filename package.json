@@ -1,6 +1,6 @@
 {
-    "name": "emoji-log-vscode",
-    "displayName": "Emoji Log",
+    "name": "emoji-in-git-commit",
+    "displayName": "Emojis For Git Commits",
     "description": "Emojis for Git Commits",
     "version": "2.0.2",
     "author": {
