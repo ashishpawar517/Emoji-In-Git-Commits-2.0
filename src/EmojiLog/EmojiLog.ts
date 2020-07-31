@@ -181,8 +181,8 @@ let EmojiLog: Array<Emoji> = [
 		description: 'Add or update the UI and style files.',
 	},
 	{
-		emoji:":wastebasket: Cleaning :",
-		description:'Removing deprecated code.'
+		emoji: ":wastebasket: Cleaning :",
+		description: 'Removing deprecated code.'
 	}
 
 ];

@@ -1,13 +1,14 @@
 {
-    "name": "emoji-in-git-commit",
-    "displayName": "Emoji-In-Git-Commits-2.0",
-    "description": " Use Emojis in Git Commit Messages",
+    "name": "emoji-log-vscode",
+    "displayName": "Emoji Log",
+    "description": "Emojis for Git Commits",
     "version": "2.0.2",
     "author": {
-        "name": "Aashish",
+        "name": "Aashish Pawar",
         "email": "pawarashish564@gmail.com"
     },
     "publisher": "Aashish",
+    "license": "MIT",
     "repository": {
         "type": "git",
         "url": "https://github.com/pawarashish564/Emoji-In-Git-Commits-2.0"
@@ -19,44 +20,42 @@
         "color": "#fad000"
     },
     "keywords": [
-        "Emoji In Commits",
-        "Emoji",
+        "Emoji Log",
+        "Emojis",
         "git",
         "emoji",
         "commit",
-        "emoji",
-        "git emoji"
+        "messages"
     ],
     "categories": [
         "Other"
     ],
-    "icon": "images/Logo.png",
+    "icon": "images/icon.png",
     "activationEvents": [
         "onCommand:extension.EmojiLog"
     ],
     "main": "./out/extension.js",
     "contributes": {
-        "commands": [
-            {
-                "command": "extension.EmojiLog",
-                "title": " ",
-                "icon": {
-                    "dark": "images/Logo.png",
-                    "light": "images/Logo.png"
-                }
+        "commands": [{
+            "command": "extension.EmojiLog",
+            "title": "Emoji Log ",
+            "icon": {
+                "dark": "images/icon_dark.svg",
+                "light": "images/icon_light.svg"
             }
-        ],
+        }],
         "menus": {
-            "scm/title": [
-                {
-                    "title": "Your Commit",
-                    "when": "scmProvider == git",
-                    "command": "extension.EmojiLog",
-                    "group": "navigation"
-                }
-            ]
+            "scm/title": [{
+                "when": "scmProvider == git",
+                "command": "extension.EmojiLog",
+                "group": "navigation"
+            }]
         }
     },
+    "badges": [{
+
+        "description": "Support this project!"
+    }],
     "scripts": {
         "vscode:prepublish": "npm run compile",
         "compile": "tsc -p ./",
