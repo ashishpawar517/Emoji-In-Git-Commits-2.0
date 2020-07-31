@@ -36,24 +36,20 @@
     ],
     "main": "./out/extension.js",
     "contributes": {
-        "commands": [
-            {
-                "command": "extension.EmojiLog",
-                "title": "Emoji-In-Git-Commits-2.0",
-                "icon": {
-                    "dark": "images/Logo.png",
-                    "light": "images/Logo.png"
-                }
+        "commands": [{
+            "command": "extension.EmojiLog",
+            "title": " ",
+            "icon": {
+                "dark": "images/Logo.png",
+                "light": "images/Logo.png"
             }
-        ],
+        }],
         "menus": {
-            "scm/title": [
-                {
-                    "when": "scmProvider == git",
-                    "command": "extension.EmojiLog",
-                    "group": "navigation"
-                }
-            ]
+            "scm/title": [{
+                "when": "scmProvider == git",
+                "command": "extension.EmojiLog",
+                "group": "navigation"
+            }]
         }
     },
     "scripts": {

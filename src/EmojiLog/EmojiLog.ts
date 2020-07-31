@@ -125,7 +125,7 @@ let EmojiLog: Array<Emoji> = [
 		description: "Add or update comments in source code.",
 	},
 	{
-		emoji: "🗃 Database:",
+		emoji: ":card_file_box: Database:",
 		description: 'Perform database related changes.',
 	},
 	{
@@ -137,7 +137,7 @@ let EmojiLog: Array<Emoji> = [
 		description: 'Add or update contributor(s).',
 	},
 	{
-		emoji: "🏗 Change: ",
+		emoji: ":building_construction: Change: ",
 		description: 'Make architectural changes.',
 	},
 	{
@@ -153,7 +153,7 @@ let EmojiLog: Array<Emoji> = [
 		description: 'Add or update a .gitignore file',
 	},
 	{
-		emoji: "⚗ Experiment New Feature: ",
+		emoji: ":alembic: Experiment New Feature: ",
 		description: 'Experiment new things',
 	},
 	{
@@ -179,6 +179,10 @@ let EmojiLog: Array<Emoji> = [
 	{
 		emoji: "💄 UI: ",
 		description: 'Add or update the UI and style files.',
+	},
+	{
+		emoji:":wastebasket: Cleaning :",
+		description:'Removing deprecated code.'
 	}
 
 ];
