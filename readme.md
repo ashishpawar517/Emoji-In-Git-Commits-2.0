@@ -1,4 +1,4 @@
-# Emoji-In-Git-Commits-2.0
+# Emoji Commits
 
 - unofficial version of Emoji-Log-VSCode
 - But with many new emoji support
@@ -6,7 +6,7 @@
 
 ## Usage :
 
-- Press `ctrl+shift+p` then select Emoji-In-Git-Commits-2.0 then select the commit emoji
+- Press `ctrl+shift+p` then select Emoji Commits  then select the commit emoji
 - Type the complete commit message after :
 - Done
 
