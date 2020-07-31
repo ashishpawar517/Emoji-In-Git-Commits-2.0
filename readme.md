@@ -60,7 +60,7 @@
 | ⬆️ Dependencies: |Upgrade dependencies.|
 | 👷 CI: |Add or update CI build system.|
 | 💄 UI:|Add or update the UI and style files.|
-	
+| :wastebasket: Cleaning : |Removing deprecated code.|
 ## Special thanks :
 - ahmadawais
 - parmentf
